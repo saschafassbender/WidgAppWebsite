@@ -1,0 +1,25 @@
+* {
+font:arial, roboto, 'sans-serif' !important; 
+}
+
+.flex-container {
+	display: flex;
+}
+
+.flex-item {
+	border: 2px solid;
+	border-radius: 0 .5em .5em;
+	margin: .5em;
+	padding: .5em;
+	background: #ffebe6;
+}
+
+p.flex-item {
+	font-weight: bold;
+	text-align: center;
+	background: #fdfdd2;
+}
+
+.flex-item:nth-of-type(2) {
+	background: #fdfcf3;
+}
